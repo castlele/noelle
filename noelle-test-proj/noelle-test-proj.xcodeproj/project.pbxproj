@@ -7,20 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D9C5D2FF297DB9860073AA92 /* noelle_test_projApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5D2FE297DB9860073AA92 /* noelle_test_projApp.swift */; };
-		D9C5D301297DB9860073AA92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5D300297DB9860073AA92 /* ContentView.swift */; };
+		D9650EB7297DCDFD009EA1AC /* noelle in Frameworks */ = {isa = PBXBuildFile; productRef = D9650EB6297DCDFD009EA1AC /* noelle */; };
+		D9650EB9297DCF21009EA1AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9650EB8297DCF21009EA1AC /* AppDelegate.swift */; };
+		D9650EBC297E6134009EA1AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9650EBB297E6134009EA1AC /* SceneDelegate.swift */; };
+		D9C5D2FF297DB9860073AA92 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5D2FE297DB9860073AA92 /* App.swift */; };
 		D9C5D303297DB9870073AA92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C5D302297DB9870073AA92 /* Assets.xcassets */; };
 		D9C5D307297DB9870073AA92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C5D306297DB9870073AA92 /* Preview Assets.xcassets */; };
+		D9C5D313297DBFEF0073AA92 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5D312297DBFEF0073AA92 /* MainCoordinator.swift */; };
+		D9C5D316297DC0BD0073AA92 /* MainFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5D315297DC0BD0073AA92 /* MainFlow.swift */; };
+		D9C5D318297DC0C20073AA92 /* GameFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5D317297DC0C20073AA92 /* GameFlow.swift */; };
+		D9C5D31B297DC6410073AA92 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5D31A297DC6410073AA92 /* MainMenuView.swift */; };
+		D9C5D31E297DC64F0073AA92 /* MainMenuPersenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5D31D297DC64F0073AA92 /* MainMenuPersenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D9650EB8297DCF21009EA1AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9650EBA297E60A7009EA1AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D9650EBB297E6134009EA1AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D9C5D2FB297DB9860073AA92 /* noelle-test-proj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "noelle-test-proj.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9C5D2FE297DB9860073AA92 /* noelle_test_projApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noelle_test_projApp.swift; sourceTree = "<group>"; };
-		D9C5D300297DB9860073AA92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D9C5D2FE297DB9860073AA92 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		D9C5D302297DB9870073AA92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9C5D304297DB9870073AA92 /* noelle_test_proj.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = noelle_test_proj.entitlements; sourceTree = "<group>"; };
 		D9C5D306297DB9870073AA92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D9C5D30E297DB9A60073AA92 /* noelle */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = noelle; path = ..; sourceTree = "<group>"; };
+		D9C5D312297DBFEF0073AA92 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		D9C5D315297DC0BD0073AA92 /* MainFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFlow.swift; sourceTree = "<group>"; };
+		D9C5D317297DC0C20073AA92 /* GameFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFlow.swift; sourceTree = "<group>"; };
+		D9C5D31A297DC6410073AA92 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		D9C5D31D297DC64F0073AA92 /* MainMenuPersenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuPersenter.swift; sourceTree = "<group>"; };
+		D9F7FFFE2982F18000911F4C /* noelle */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = noelle; path = ..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,18 +42,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9650EB7297DCDFD009EA1AC /* noelle in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D9650EB5297DCDFD009EA1AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D9C5D2F2297DB9860073AA92 = {
 			isa = PBXGroup;
 			children = (
-				D9C5D30D297DB9A60073AA92 /* Packages */,
+				D9F7FFFD2982F18000911F4C /* Packages */,
 				D9C5D2FD297DB9860073AA92 /* noelle-test-proj */,
 				D9C5D2FC297DB9860073AA92 /* Products */,
+				D9650EB5297DCDFD009EA1AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,8 +77,12 @@
 		D9C5D2FD297DB9860073AA92 /* noelle-test-proj */ = {
 			isa = PBXGroup;
 			children = (
-				D9C5D2FE297DB9860073AA92 /* noelle_test_projApp.swift */,
-				D9C5D300297DB9860073AA92 /* ContentView.swift */,
+				D9650EBA297E60A7009EA1AC /* Info.plist */,
+				D9C5D319297DC6310073AA92 /* Views */,
+				D9C5D311297DBFE80073AA92 /* Navigation */,
+				D9C5D2FE297DB9860073AA92 /* App.swift */,
+				D9650EB8297DCF21009EA1AC /* AppDelegate.swift */,
+				D9650EBB297E6134009EA1AC /* SceneDelegate.swift */,
 				D9C5D302297DB9870073AA92 /* Assets.xcassets */,
 				D9C5D304297DB9870073AA92 /* noelle_test_proj.entitlements */,
 				D9C5D305297DB9870073AA92 /* Preview Content */,
@@ -71,10 +98,45 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		D9C5D30D297DB9A60073AA92 /* Packages */ = {
+		D9C5D311297DBFE80073AA92 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
-				D9C5D30E297DB9A60073AA92 /* noelle */,
+				D9C5D314297DC0B20073AA92 /* Flows */,
+				D9C5D312297DBFEF0073AA92 /* MainCoordinator.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		D9C5D314297DC0B20073AA92 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				D9C5D315297DC0BD0073AA92 /* MainFlow.swift */,
+				D9C5D317297DC0C20073AA92 /* GameFlow.swift */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		D9C5D319297DC6310073AA92 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9C5D31C297DC6470073AA92 /* MainMenu */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D9C5D31C297DC6470073AA92 /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				D9C5D31A297DC6410073AA92 /* MainMenuView.swift */,
+				D9C5D31D297DC64F0073AA92 /* MainMenuPersenter.swift */,
+			);
+			path = MainMenu;
+			sourceTree = "<group>";
+		};
+		D9F7FFFD2982F18000911F4C /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				D9F7FFFE2982F18000911F4C /* noelle */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -93,9 +155,12 @@
 			buildRules = (
 			);
 			dependencies = (
-				D9C5D310297DBA150073AA92 /* PBXTargetDependency */,
+				D9F700002982F18E00911F4C /* PBXTargetDependency */,
 			);
 			name = "noelle-test-proj";
+			packageProductDependencies = (
+				D9650EB6297DCDFD009EA1AC /* noelle */,
+			);
 			productName = "noelle-test-proj";
 			productReference = D9C5D2FB297DB9860073AA92 /* noelle-test-proj.app */;
 			productType = "com.apple.product-type.application";
@@ -150,17 +215,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9C5D301297DB9860073AA92 /* ContentView.swift in Sources */,
-				D9C5D2FF297DB9860073AA92 /* noelle_test_projApp.swift in Sources */,
+				D9C5D31B297DC6410073AA92 /* MainMenuView.swift in Sources */,
+				D9C5D31E297DC64F0073AA92 /* MainMenuPersenter.swift in Sources */,
+				D9C5D313297DBFEF0073AA92 /* MainCoordinator.swift in Sources */,
+				D9C5D316297DC0BD0073AA92 /* MainFlow.swift in Sources */,
+				D9650EB9297DCF21009EA1AC /* AppDelegate.swift in Sources */,
+				D9C5D318297DC0C20073AA92 /* GameFlow.swift in Sources */,
+				D9C5D2FF297DB9860073AA92 /* App.swift in Sources */,
+				D9650EBC297E6134009EA1AC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D9C5D310297DBA150073AA92 /* PBXTargetDependency */ = {
+		D9F700002982F18E00911F4C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			productRef = D9C5D30F297DBA150073AA92 /* Noelle */;
+			productRef = D9F7FFFF2982F18E00911F4C /* noelle */;
 		};
 /* End PBXTargetDependency section */
 
@@ -287,6 +358,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "noelle-test-proj/Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -325,6 +397,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "noelle-test-proj/Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -374,9 +447,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D9C5D30F297DBA150073AA92 /* Noelle */ = {
+		D9650EB6297DCDFD009EA1AC /* noelle */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = Noelle;
+			productName = noelle;
+		};
+		D9F7FFFF2982F18E00911F4C /* noelle */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = noelle;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
