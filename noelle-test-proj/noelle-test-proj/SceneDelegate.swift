@@ -17,7 +17,7 @@ final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         self.window = window
 
         let noelleWindow = NoelleWindow(window: window)
-        let coordinator = MainCoordinator(mainFlow: .init(), gameFlow: .init())
+        let coordinator = MainCoordinator(mainFlow: .init(window: noelleWindow))
         self.mainCoordinator = coordinator
 
         coordinator.start(on: noelleWindow)

@@ -15,7 +15,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
                                 defer: false)
 
         let window = NoelleWindow(window: nsWindow)
-        let coordinator = MainCoordinator(mainFlow: .init(), gameFlow: .init())
+        let coordinator = MainCoordinator(mainFlow: .init(window: window))
         self.mainCoordinator = coordinator
 
         coordinator.start(on: window)

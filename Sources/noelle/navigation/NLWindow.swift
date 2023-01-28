@@ -4,11 +4,14 @@ import AppKit
 import UIKit
 #endif
 
+// TODO: rename to something like Router?
 open class NoelleWindow {
 
-    private let window: Window
+    private let window: NLWindow
 
-    public var rootViewController: ViewController? {
+    private var viewStack: [NLViewController] = []
+
+    public var rootViewController: NLViewController? {
         get {
             #if os(macOS)
             window.contentViewController
@@ -17,9 +20,11 @@ open class NoelleWindow {
             #endif
         }
         set {
+            if let viewController = newValue {
+                viewStack.append(viewController)
+            }
             #if os(macOS)
             window.contentViewController = newValue
-            window.contentView = newValue?.view
             #elseif os(iOS)
             window.rootViewController = newValue
             #endif
@@ -28,7 +33,7 @@ open class NoelleWindow {
 
     // MARK: - Init
 
-    public init(window: Window) {
+    public init(window: NLWindow) {
         self.window = window
     }
 
@@ -40,5 +45,14 @@ open class NoelleWindow {
         #elseif os(iOS)
         window.makeKeyAndVisible()
         #endif
+    }
+
+    open func present(_ viewController: NLViewController) {
+        rootViewController = viewController
+    }
+
+    open func pop() {
+        viewStack.removeLast()
+        rootViewController = viewStack.last
     }
 }

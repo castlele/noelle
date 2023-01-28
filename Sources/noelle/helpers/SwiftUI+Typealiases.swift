@@ -1,10 +1,12 @@
 import SwiftUI
 #if os(macOS)
 
-public typealias HostingController = NSHostingController
+public typealias NLHostingController = NSHostingController
+public typealias NLViewRepresentable = NSViewRepresentable
 
 #elseif os(iOS)
 
-public typealias HostingController = UIHostingController
+public typealias NLHostingController = UIHostingController
+public typealias NLViewRepresentable = UIViewRepresentable
 
 #endif
