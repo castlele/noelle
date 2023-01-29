@@ -10,8 +10,6 @@ open class BaseVerticalControlsView: BaseInitializableStackView {
     // MARK: - Open methods
 
     open func add(buttons: NLButton...) {
-        buttons.forEach {
-            addArrangedSubview($0)
-        }
+        addArrangedSubviews(buttons)
     }
 }
